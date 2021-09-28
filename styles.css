@@ -2,6 +2,29 @@
     text-align: center;
     margin-top: auto;
     margin-bottom: auto;
-    background-color: #32CD32;
-    color: #E40078;
+    background-color: #2db92d;
+    color: #cc006d;
+    font-family: 'Roboto Mono', monospace;
+}
+
+.container {
+    min-width: 70%;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+h1 {
+    font-size: 10rem;
+}
+
+p {
+    font-size: 2.5rem;
+}
+
+i {
+    font-size: 5rem;
+    margin-top: 2rem;
+    padding: 0 2rem;
 }
