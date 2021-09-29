@@ -1,5 +1,3 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
-
 * {
     text-align: center;
     margin-top: auto;
@@ -8,7 +6,7 @@
 
 body, i {
     animation: colorChange 10s infinite alternate;
-    font-family: 'Roboto Mono', monospace;
+    font-family: monospace;
 }
 
 .container {
