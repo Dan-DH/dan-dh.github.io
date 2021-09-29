@@ -2,10 +2,13 @@
     text-align: center;
     margin-top: auto;
     margin-bottom: auto;
+}
+
+body, i {
+    animation: colorChange 10s infinite alternate;
+    font-family: 'Roboto Mono', monospace;
     background-color: #2db92d;
     color: #cc006d;
-    font-family: 'Roboto Mono', monospace;
-    animation: colorChange 10s infinite alternate;
 }
 
 .container {
@@ -42,15 +45,15 @@ i {
     padding: 0 2vw;
 }
 
+i:hover {
+    animation: shake 0.5s infinite, colorChange 10s infinite alternate;
+}
+
 @keyframes colorChange {
     100% {
         background-color: #cc006d;
         color: #2db92d;
     }
-}
-
-i:hover {
-    animation: shake 0.5s infinite, colorChange 10s infinite alternate;
 }
 
 @keyframes shake {
