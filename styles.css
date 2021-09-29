@@ -34,8 +34,15 @@ i {
     padding: 0 2rem;
 }
 
+@keyframes colorChange {
+    100% {
+        background-color: #cc006d;
+        color: #2db92d;
+    }
+}
+
 i:hover {
-    animation: shake 0.5s infinite;
+    animation: shake 0.5s infinite, colorChange 10s infinite alternate;
 }
 
 @keyframes shake {
@@ -50,11 +57,3 @@ i:hover {
 80% { transform: translate(-1px, -1px) rotate(1deg) scale(1.5); }
 90% { transform: translate(1px, 2px) rotate(0deg) scale(1.5); }
 100% { transform: translate(1px, -2px) rotate(-1deg) scale(1.5); }
-}
-
-@keyframes colorChange {
-    100% {
-        background-color: #cc006d;
-        color: #2db92d;
-    }
-}
