@@ -47,12 +47,12 @@ i:hover {
 
 @keyframes colorChange {
     0% {
-        background-color: #2db92d;
-        color: #cc006d;
+        background-color: #AE388B;
+        color: #5DF15D;
     }
     100% {
-        background-color: #cc006d;
-        color: #2db92d;
+        background-color: #5DF15D;
+        color: #AE388B;
     }
 }
 
