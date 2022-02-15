@@ -1,12 +1,12 @@
 const portfolio = [
-  { name: "GeekOut!", link: "https://geekout.netlify.app/" },
   {
     name: "Getflix",
     link: "http://getflix.atwebpages.com/Frontend/welcome.php",
   },
   { name: "Slayer", link: "https://dan-dh.github.io/slayer/" },
   { name: "HaikuBoto", link: "https://github.com/Dan-DH/HaikuBoto" },
-  { name: "¡Piñata!", link: "https://github.com/Dan-DH/pinata" },
+  { name: "¡Piñata!", link: "https://dan-dh.github.io/pinata/" },
+  { name: "GeekOut!", link: "https://geekout.netlify.app/" },
   {
     name: "Krusty Krab",
     link: "https://dan-dh.github.io/restaurant-css-framework/",
