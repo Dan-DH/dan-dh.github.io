@@ -1,0 +1,22 @@
+{
+  "name": "dan-dh.github.io",
+  "version": "1.0.0",
+  "description": "### I'm Daniel, a junior back-end web developer with a background in HR and a passion for coding and data.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Dan-DH/dan-dh.github.io.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Dan-DH/dan-dh.github.io/issues"
+  },
+  "homepage": "https://github.com/Dan-DH/dan-dh.github.io#readme",
+  "dependencies": {
+    "animate.css": "^4.1.1"
+  }
+}
