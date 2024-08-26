@@ -1,58 +1,128 @@
 <!DOCTYPE html>
 <html lang="en-US">
-  <head>
-    <meta name="description" content="Daniel Diaz, portolio, homepage" />
-    <meta charset="UTF-8" />
-    <title>Hola World !</title>
-    <script
-      src="https://kit.fontawesome.com/89bc576fb3.js"
-      crossorigin="anonymous"
-      async
-    ></script>
-    <link rel="stylesheet" type="text/css" href="styles.css" media="screen" />
-    <link
-    rel="stylesheet"
-    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
-  />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-  </head>
 
-  <body>
-    <div class="container">
-      <div class="title">
-        <h1>Hola World!</h1>
-      </div>
-      <div class="list">
+<head>
+  <meta name="description" content="Daniel Diaz, portolio, homepage" />
+  <meta charset="UTF-8" />
+  <title>Hola World!</title>
+  <link rel="stylesheet" type="text/css" href="styles.css" media="screen" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+</head>
 
-        <p class="animate_animated animate__fadeInDown animate__infinite 	infinite"><a id="p1" href="https://dan-dh.github.io/responsivo/" target="_blank">Responsivo</a></p>
-        <p>|</p>
-        <p>Daniel Diaz</p>
-        <p>|</p>
-        <p><a id="p2" href="https://geekout.netlify.app/" target="_blank">GeekOut!</a></p>
+<body>
+  <div class="content">
+    <div class="title">
+      <img class="button-image balloon" src="images/balloon.png" alt="Hi there, I'm Daniel">
+    </div>
+    <div class="main-content">
+      <div class="portrait-div">
+        <img class="portrait" src="images/portrait.png" alt="pixel_portrait">
       </div>
-      <div class="socials">
-        <a
-          href="https://github.com/Dan-DH"
-          target="_blank"
-          aria-label="github"
-          rel="noreferrer"
-          ><i class="fab fa-github"></i
-        ></a>
-        <a
-          href="https://www.linkedin.com/in/daniel-d%C3%ADaz-b519a770/"
-          target="_blank"
-          aria-label="linkedin"
-          rel="noreferrer"
-          ><i class="fab fa-linkedin-in"></i
-        ></a>
-        <a
-          href="mailto:daniel.diaz.hdez@gmail.com"
-          target="_blank"
-          aria-label="email"
-          ><i class="fas fa-envelope"></i
-        ></a>
+
+      <div class="accordion">
+        <div class="accordion-item">
+          <button class="accordion-header">
+            <img class="button-image" src="images/about.png" alt="About">
+          </button>
+          <div class="accordion-content about">
+            <p>I'm a full-stack developer based in Brussels, Belgium.</p>
+            <p>Before becoming a developer I worked in the HR department of companies like Atos and Amazon. It was there
+              that I came into contact with programming in an effort to automate some of the repetitive tasks my
+              colleagues and I were enduring, first with VBA and later with python.</p>
+            <p>When the pandemic hit I decided to take the plunge and go full on webdev with Typescript, Mongo and Node.
+            </p>
+            <p>Now I get to spend my time learning and creating cool things. At least I think they are neat.</p>
+            <p>I'm an avid consumer of all types of media, here are some things I recommend at the moment:</p>
+            <ul>
+              <li>Gaming: Street Fighter 6</li>
+              <li>Reading: Children of time ❤️</li>
+              <li>Watching: The Bear</li>
+            </ul>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <button class="accordion-header">
+            <img class="button-image" src="images/projects.png" alt="Section 2">
+          </button>
+          <div class="accordion-content projects">
+            <p>I'm currently working on bringing back to life an old mobile game as a PWA ⚔️</p>
+            <p>More info coming soon!</p>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <button class="accordion-header">
+            <img class="button-image portfolio" src="images/portfolio.png" alt="Section 3">
+          </button>
+          <div class="accordion-content">
+            <p>Ah, the ever-evolving portfolio!</p>
+            <p>Most of these projects were done during my bootcamp days, before I started working full time as back-end
+              dev for a fintech startup.</p>
+            <div class="portfolio">
+              <div class="portfolio-item">
+                <a target="_blank" href="https://alisancavus.github.io/CookieClicker/">
+                  <img class="portfolio-thumbnail" src="images/cookie1.webp" />
+                </a>
+                <p class="portfolio-paragraph">Cookie Heaven,
+                  a Cookie
+                  Clicker clone.</p>
+              </div>
+
+
+              <div class="portfolio-item">
+                <p class="portfolio-paragraph">Slayer, a one-day game project.</p>
+                <a target="_blank" href="https://github.com/Dan-DH/slayer?tab=readme-ov-file">
+                  <img class="portfolio-thumbnail" src="images/assassin.webp" />
+                </a>
+              </div>
+
+              <div class="portfolio-item">
+                <a target="_blank" class="geekout" href="https://github.com/Dan-DH/slayer?tab=readme-ov-file">
+                  <img class="portfolio-thumbnail" src="images/geekout.png" />
+                </a>
+                <p class="portfolio-paragraph">Geekout. Sadly the site
+                  died
+                  alongside Heroku's free tier hosting, but the code remains.</p>
+              </div>
+
+              <div class="portfolio-item">
+                <p class="portfolio-paragraph">¡Piñata!, another one-day game project.</p>
+                <a target="_blank" href="https://github.com/Dan-DH/pinata?tab=readme-ov-file">
+                  <img class="portfolio-thumbnail" src="images/pinata.webp" />
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <button class="accordion-header">
+            <img class="button-image writing" src="images/writing.png" alt="Section 4">
+          </button>
+          <div class="accordion-content">
+            <p>I used to write quite a bit when I was younger, here are some of those stories (in 🇪🇸).</p>
+            <ul>
+              <li>Juego de cama</li>
+              <li>El instante</li>
+              <li>Celebrity Jane</li>
+              <li>La fortaleza del fin del mundo</li>
+              <li>Veronica tenia razon</li>
+            </ul>
+          </div>
+        </div>
       </div>
     </div>
-    <script src="./index.js" type="module"></script>
-  </body>
+    <script src="script.js">
+    </script>
+  </div>
+
+  <footer>
+    <div class="footer-div">
+      <p class="footer-copyright">©️ Daniel Diaz</p>
+      <p><a href="mailto:daniel.diaz.hdez@gmail.com"> <img class="socials-thumbnail" src="images/mail.png" /></a></p>
+      <p><a target="_blank" href="https://github.com/Dan-DH"><img class="socials-thumbnail"
+            src="images/github.png" /></a></p>
+      <p class="footer-icons8">Icons by <a target="_blank" href="https://icons8.com">Icons8</a></p>
+    </div>
+  </footer>
+</body>
+
 </html>
